@@ -1,0 +1,21 @@
+6.
+  a. d(prop)=m/s
+  b. d(trans)=L/R
+  c. d(total)=m/s+L/R
+  d. the start of the link
+  e. on the link
+  f. in router B
+  g. L/R = m/s 
+     so m=Ls/R = 5.36*10^5 m
+
+7.
+  d(prop) = 10*10^-3 s
+  t = 56*8 bits / 64*10^3 bits/s = 7*10^-3 s
+  d(trans) = L/R = 0.224*10^-3 s
+  t(total) = 17.224 ms
+  
+8.
+  a. num = 3*10^6bits/s / 150*10^3bits/s = 20
+  b. p=0.1
+  c. P=C(n 120) p^n (1-p)^120-n //(p=0.1)
+  d. P(n>=21)=1-P(n<21)=0.003

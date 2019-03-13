@@ -1,0 +1,25 @@
+P1:
+   a.wrong
+   b.right
+   c.wrong
+   d.wrong
+   e.wrong
+   
+P3:
+   application layer: DNS HTTP
+   translation layer: TCP UDP
+
+P7:
+   2 RTT0 + RTT1 + RTT2 + … + RTTn
+   
+P8:
+   a.2RTT0 + RTT1 + RTT2 + … + RTTn + 8 * 2 RTT0 = 18 RTT0 + RTT1 + RTT2 + … + RTTn
+
+   b.2RTT0 + RTT1 + RTT2 + … + RTTn + 2 * 2 RTT0 = 6 RTT0 + RTT1 + RTT2 + … + RTTn
+
+   c.2RTT0 + RTT1 + RTT2 + … + RTTn + RTT0 = 3 RTT0 + RTT1 + RTT2 + … + RTTn
+   
+P11:
+   a. yes
+   b. yes
+   

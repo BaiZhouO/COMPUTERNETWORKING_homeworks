@@ -1,0 +1,31 @@
+P2:
+    from B to C:
+    left: source port is 80 , ip is B's ip;   destination port 26145, ip is C's ip
+    right: source port 80, ip is B's ip;    destinnation port 7532, ip is C's ip
+    
+    from B to A:
+    source port 80, ip is B's ip;   destination port is 26145, ip is C's ip
+    
+P4:
+    a. 00111110
+    b. 01000000
+    c. the first byte and second byte of a is 01011101, 01100100 now
+    
+P7: 
+    ACK packet doesn't have a sequence number cause the sender and the receiver do not need any.
+    
+P8:
+    just use the receiver in rdt2.2 
+    
+P52:
+    1. 
+    S= W/2 + W/2 * (1+a) +W/2 * (1+a)^2 + ... + W
+    put W/2 * (1+a)^n = W
+    then n = log(1+a)2
+    so S = W(2a+1)/2a
+    and L = 1/S = 2a/W(2a+1)
+    
+    2.
+    t is 
+    n* RTT = log(1+a)2 * RTT
+    have nothing connected to throughput.
